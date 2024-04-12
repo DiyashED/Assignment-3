@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-image: url('./image/img.jpeg');
+    background-size: fill;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value (0.5 for 50% transparency) */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+    background-color: pink;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 8px 8px 0 0;
+}
+
+main {
+    padding: 20px 0;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: pink;
+    color: white;
+    padding: 10px 0;
+    border-radius: 0 0 8px 8px;
+}
